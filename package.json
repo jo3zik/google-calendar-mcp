@@ -1,7 +1,7 @@
 {
-  "name": "@cocal/google-calendar-mcp",
+  "name": "@jo3zik/google-calendar-mcp",
   "version": "2.6.1",
-  "description": "Google Calendar MCP Server with extensive support for calendar management",
+  "description": "Google Calendar MCP Server with extensive support for calendar management (interim build: @cocal/google-calendar-mcp 2.6.1 plus GOOGLE_CALENDAR_API_BASE_URL, upstream PR nspady/google-calendar-mcp#199; pin flips back when upstream ships)",
   "type": "module",
   "main": "build/index.js",
   "bin": {
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/nspady/google-calendar-mcp/issues"
   },
-  "homepage": "https://github.com/nspady/google-calendar-mcp#readme",
+  "homepage": "https://github.com/nspady/google-calendar-mcp/pull/199",
   "author": "nspady",
   "license": "MIT",
   "scripts": {
@@ -73,5 +73,8 @@
     "openai": "^6.22.0",
     "typescript": "^5.3.3",
     "vitest": "^4.0.18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
